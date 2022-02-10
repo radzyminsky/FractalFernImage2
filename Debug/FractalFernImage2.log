@@ -1,0 +1,9 @@
+﻿  Source.cpp
+C:\Users\Yonatan\source\repos\FractalFernImage2\Source.cpp(39,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Yonatan\source\repos\FractalFernImage2\Source.cpp(59,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Yonatan\source\repos\FractalFernImage2\Source.cpp(79,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Yonatan\source\repos\FractalFernImage2\Source.cpp(132,21): warning C4101: 'p4': unreferenced local variable
+C:\Users\Yonatan\source\repos\FractalFernImage2\Source.cpp(188,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Yonatan\source\repos\FractalFernImage2\Source.cpp(192,91): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Yonatan\source\repos\FractalFernImage2\Source.cpp(192,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  FractalFernImage2.vcxproj -> C:\Users\Yonatan\source\repos\FractalFernImage2\Debug\FractalFernImage2.exe

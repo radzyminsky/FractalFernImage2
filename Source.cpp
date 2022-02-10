@@ -217,10 +217,10 @@ vector<string> SplitStr(string str, char delimiter1, char delimiter2)
     string temp = "";
     int start, end;
     start = end = 0;
-    while (start != -1 && end != -1)
+    while ((start = str.find(delimiter1)) != -1 && (end =str.find(delimiter2)) != -1)
     {
-        start = str.find(delimiter1);
-        end = str.find(delimiter2);
+       /* start = str.find(delimiter1);
+        end = str.find(delimiter2);*/
         temp.assign(str, start + 1, end - start - 1);
         str.erase(0, end + 1);
         subStrings.push_back(temp);
